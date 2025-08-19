@@ -26,7 +26,7 @@ const PORT = process.env.PORT || 5001
 app.use(helmet())
 app.use(compression())
 app.use(cors({
-  origin: process.env.CLIENT_URL || 'http://localhost:3000',
+  origin: process.env.CLIENT_URL || 'https://ecommerce-admin-dashboard-production.up.railway.app',
   credentials: true
 }))
 app.use(express.json({ limit: '10mb' }))

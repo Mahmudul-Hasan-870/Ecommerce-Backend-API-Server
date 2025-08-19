@@ -104,7 +104,7 @@ class SettingsController {
           push: true
         },
         theme: {
-          primaryColor: '#3B82F6',
+          primaryColor: '#00473E',
           secondaryColor: '#6B7280',
           darkMode: false
         },
